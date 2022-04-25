@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+.store{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.store h2{
+    color: white;
+    font-size: 28px;
+    padding: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
+.price-row{
+    width: 85%;
+    margin: auto;
+    max-width: 110 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+}
+.price-col1{
+    background: DarkSlateGray;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.price-col1 p{
+    font-size: 28px;
+}
+.price-col1 h3{
+    font-size: 45px;
+    margin: 18px;
+}
+
+.price-col1 ul{
+    text-align: left;
+    margin: 15px;
+    list-style: none;
+}
+.price-col1 ul li{
+    margin: 10px;
+}
+
+.price-col3{
+    background: LightSeaGreen;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.price-col3 p{
+    font-size: 28px;
+}
+.price-col3 h3{
+    font-size: 45px;
+    margin: 18px;
+}
+
+.price-col3 ul{
+    text-align: left;
+    margin: 15px;
+    list-style: none;
+}
+.price-col3 ul li{
+    margin: 10px;
+}
+.price-col2{
+    background: grey;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.price-col2 p{
+    font-size: 28px;
+}
+.price-col2 h3{
+    font-size: 45px;
+    margin: 18px;
+}
+
+.price-col2 ul{
+    text-align: left;
+    margin: 15px;
+    list-style: none;
+}
+.price-col2 ul li{
+    margin: 10px;
+}
+.price-col4{
+    background: tomato;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.price-col4 p{
+    font-size: 28px;
+}
+.price-col4 h3{
+    font-size: 45px;
+    margin: 18px;
+}
+
+.price-col4 ul{
+    text-align: left;
+    margin: 15px;
+    list-style: none;
+}
+.price-col4 ul li{
+    margin: 10px;
+}
+.price-col1 button{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid grey;
+    transition: 0.5s;
+}
+.price-col2 button{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.price-col3 button{
+
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    transition: 0.5s;
+
+}
+.price-col4 button{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid skyblue;
+    transition: 0.5s;
+
+}
+.price-col1 button:hover{
+    background: DarkGreen;
+}
+.price-col2 button:hover{
+    background: DarkGrey;
+}
+.price-col3 button:hover{
+    background: Cyan;
+}
+.price-col4 button:hover{
+    background: coral;
+}
